@@ -13,6 +13,7 @@
 		D148FA6022CDF85F009FD67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D148FA5F22CDF85F009FD67C /* Assets.xcassets */; };
 		D148FA6322CDF85F009FD67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D148FA6122CDF85F009FD67C /* LaunchScreen.storyboard */; };
 		D148FA6622CDF85F009FD67C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D148FA6522CDF85F009FD67C /* main.m */; };
+		D148FA7122CE070E009FD67C /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D148FA7022CE070E009FD67C /* ClassA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D148FA6222CDF85F009FD67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D148FA6422CDF85F009FD67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D148FA6522CDF85F009FD67C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D148FA6F22CE070E009FD67C /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		D148FA7022CE070E009FD67C /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		D148FA5522CDF85E009FD67C /* A */ = {
 			isa = PBXGroup;
 			children = (
+				D148FA6E22CE06E9009FD67C /* A */,
 				D148FA5622CDF85E009FD67C /* AppDelegate.h */,
 				D148FA5722CDF85E009FD67C /* AppDelegate.m */,
 				D148FA5922CDF85E009FD67C /* ViewController.h */,
@@ -67,6 +71,15 @@
 				D148FA6122CDF85F009FD67C /* LaunchScreen.storyboard */,
 				D148FA6422CDF85F009FD67C /* Info.plist */,
 				D148FA6522CDF85F009FD67C /* main.m */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		D148FA6E22CE06E9009FD67C /* A */ = {
+			isa = PBXGroup;
+			children = (
+				D148FA6F22CE070E009FD67C /* ClassA.h */,
+				D148FA7022CE070E009FD67C /* ClassA.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 			files = (
 				D148FA5B22CDF85E009FD67C /* ViewController.m in Sources */,
 				D148FA6622CDF85F009FD67C /* main.m in Sources */,
+				D148FA7122CE070E009FD67C /* ClassA.m in Sources */,
 				D148FA5822CDF85E009FD67C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
